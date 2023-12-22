@@ -33,9 +33,9 @@
  * um einen speziellen Chip auf dem DfMiniMp3 Player zu ünterstützen bitte in eine der nächste Zeilen den Kommentar entfernen
  */
 //#define DFMiniMp3_T_CHIP_GD3200B
-//#define DFMiniMp3_T_CHIP_MH2024K16SS
+#define DFMiniMp3_T_CHIP_MH2024K16SS // works best for MP3 TF16P 3.0 MH2024K-24SS
 //#define DFMiniMp3_T_CHIP_LISP3
-#define DFMiniMp3_T_CHIP_Mp3ChipIncongruousNoAck
+//#define DFMiniMp3_T_CHIP_Mp3ChipIncongruousNoAck
 
 /* uncomment the below line to disable shutdown via button (long press play/pause)
  * um ein Shutdown via Taste (long press Play/Pause) zu unterdrücken bitte in der nächste Zeile den Kommentar entfernen
@@ -60,11 +60,11 @@ inline constexpr uint8_t   rotaryEncoderDtPin     = 37; // PF3
 /* uncomment the below line to enable the poti for volume setting
  * um den Poti zu unterstützen bitte in der nächste Zeile den Kommentar entfernen
  */
-//#define POTI
+#define POTI
 #ifdef ALLinONE_Plus
 inline constexpr uint8_t   potiPin    = A14; // AiO+ PF4
 #else
-inline constexpr uint8_t   potiPin    = A5 ; // AiO/Classic A5
+inline constexpr uint8_t   potiPin    = A6; // AiO/Classic A5 / HB: A6
 #endif // ALLinONE_Plus
 
 /* uncomment the below line to enable the neo ring
@@ -72,21 +72,25 @@ inline constexpr uint8_t   potiPin    = A5 ; // AiO/Classic A5
  * um den Neo Ring zu unterstützen bitte in der nächste Zeile den Kommentar entfernen
  * um weitere Features einzuschalten, auch den Kommentar für NEO_RING_EXT entfernen
  */
-//#define NEO_RING
-//#define NEO_RING_EXT
+#define NEO_RING
+#define NEO_RING_EXT
 #ifdef ALLinONE_Plus
 inline constexpr uint8_t neoPixelRingPin = 10; // PB2 on AiOplus (Erweiterungsleiste (Female))
 #else
-inline constexpr uint8_t neoPixelRingPin =  5; // D5 on AiO/Classic
+inline constexpr uint8_t neoPixelRingPin =  8; // D5 on AiO/Classic / HB: D8
 #endif // ALLinONE_Plus
-inline constexpr uint8_t neoPixelNumber  = 24; // Total Number of Pixels
+inline constexpr uint8_t neoPixelNumber  = 8; // Total Number of Pixels
 
 /* uncomment the below line to enable the Speaker on/off on Pin D6 for Classic to suppress noise
  * on startup and shutdown
  * um den Lautsprecher ein/aus Schalter über D6 für die Classic Variante zu unterstützen bitte
  * in der nächste Zeile den Kommentar entfernen (zur Unterdrückung der Ein- und Ausschaltgeräusche)
  */
-//#define SPKONOFF
+#define SPKONOFF
+
+// uncomment the below line to enable jack detection to reduce max volume
+#define JACKDETECT
+inline constexpr uint8_t jdPin = 5;
 
 /* uncomment the below line to ignore the RFID if it is already playing
  * um die selbe RFID zu ignorieren, wenn die bereits spielt, in der nächste
@@ -106,7 +110,7 @@ inline constexpr uint8_t neoPixelNumber  = 24; // Total Number of Pixels
  * um die letzte Karte oder den letzten Short Cut wieder abzuspielen, wenn die Play/Pause Taste
  * im Idle State gedrückt wird, in der nächste Zeile den Kommentar entfernen
  */
-//#define REPLAY_ON_PLAY_BUTTON
+#define REPLAY_ON_PLAY_BUTTON
 
 /* #################################################################################################
  * ##### normally, you don't have to edit lines below                   ############################
@@ -188,10 +192,10 @@ inline constexpr unsigned long dfPlayer_timeUntilStarts = 1000;
 
 // ####### tonuino #####################################
 
-inline constexpr uint8_t       shutdownPin      = 7;
-inline constexpr levelType     shutdownPinType  = levelType::activeHigh;
-inline constexpr uint8_t       ampEnablePin     = 6;
-inline constexpr levelType     ampEnablePinType = levelType::activeHigh;
+inline constexpr uint8_t       shutdownPin      = 6;  // HB: D6
+inline constexpr levelType     shutdownPinType  = levelType::activeLow;  // HB: activeLow
+inline constexpr uint8_t       ampEnablePin     = 7;  // HB: D7
+inline constexpr levelType     ampEnablePinType = levelType::activeHigh;  // HB: activeHigh
 inline constexpr uint8_t       openAnalogPin    = A7;
 inline constexpr unsigned long cycleTime        = 50;
 #endif /* TonUINO_Classic or TonUINO_Every */
