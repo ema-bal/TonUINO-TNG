@@ -1,0 +1,24 @@
+HomeBrew (HB) Tonuino 2023
+
+prog_txPin           =  0
+prog_rxPin           =  1
+dfPlayer_receivePin  =  2
+dfPlayer_transmitPin =  3
+dfPlayer_busyPin     =  4
+jaxkDetectPin        =  5
+shutdownPin          =  6
+ampEnablePin         =  7
+neoPixelRingPin      =  8
+mfrc522_RSTPin       =  9  // RST
+mfrc522_SSPin        = 10  // SDA
+mfrc522_MOSIPin      = 11  // MOSI
+mfrc522_MISOPin      = 12  // MISO
+mfrc522_CLKPin       = 13  // CLK
+buttonPausePin       = A0
+buttonUpPin          = A1
+buttonDownPin        = A2
+buttonMode           = A3  // not yet implemented
+playLED              = A4
+NA                   = A5
+poti                 = A6
+openAnalogPin        = A7
