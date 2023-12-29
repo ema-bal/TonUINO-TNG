@@ -5,7 +5,7 @@ prog_rxPin           =  1
 dfPlayer_receivePin  =  2
 dfPlayer_transmitPin =  3
 dfPlayer_busyPin     =  4
-jaxkDetectPin        =  5
+jackDetectPin        =  5
 shutdownPin          =  6
 ampEnablePin         =  7
 neoPixelRingPin      =  8
@@ -22,3 +22,12 @@ playLED              = A4
 NA                   = A5
 poti                 = A6
 openAnalogPin        = A7
+
+DF Player
+
+MP3 TF 16P MH3028M -> Echo while playing (UART polling)
+MP3 TF 16P YX5200-24QS -> Echo while playing (UART polling) 
+
+MP3 TF 16P 3.0 MH2024K-24SS -> noise with volume set < 22
+however this is the best choice for now
+#def MH2024 + min Vol = 15 / max Vol = 30

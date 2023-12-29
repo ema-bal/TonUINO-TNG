@@ -25,12 +25,12 @@ const command cmd_table[][4] PROGMEM = {
 /*  fiveLong,       */ ,{ command::previous10, command::none       , command::volume_down, command::none        }
 /*  fiveLongRepeat, */ ,{ command::none      , command::none       , command::volume_down, command::none        }
 #else // Three Button
-/*  up,             */ ,{ command::next      , command::bright_up  , command::next       , command::volume_up   }
-/*  upLong,         */ ,{ command::next10    , command::shortcut2  , command::volume_up  , command::next        }
-/*  upLongRepeat,   */ ,{ command::none      , command::none       , command::volume_up  , command::none        }
-/*  down,           */ ,{ command::previous  , command::bright_down, command::previous   , command::volume_down }
-/*  downLong,       */ ,{ command::previous10, command::shortcut3  , command::volume_down, command::previous    }
-/*  downLongRepeat, */ ,{ command::none      , command::none       , command::volume_down, command::none        }
+/*  up,             */ ,{ command::next      , command::bright_up  , command::next       , command::next        }
+/*  upLong,         */ ,{ command::next10    , command::shortcut2  , command::none       , command::none        }
+/*  upLongRepeat,   */ ,{ command::none      , command::none       , command::none       , command::none        }
+/*  down,           */ ,{ command::previous  , command::bright_down, command::previous   , command::previous    }
+/*  downLong,       */ ,{ command::previous10, command::shortcut3  , command::none       , command::none        }
+/*  downLongRepeat, */ ,{ command::none      , command::none       , command::none,        command::none        }
 /*  updownLong,     */ ,{ command::none      , command::shortcut1  , command::to_first   , command::to_first    }
 #endif
 #ifdef SerialInputAsCommand

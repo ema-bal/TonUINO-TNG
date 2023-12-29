@@ -1,0 +1,59 @@
+Tonuino SD Card
+Generated on: 20231220_203939
+01/ (Lieder) [blau Rakete]
+    Aram Sam Sam - Maxi Milian.mp3
+    Der Kuckuck und der Esel - Eddi & Daen.mp3
+    Die Maus auf Weltraumreise - Simone Sommerland.mp3
+    Ein bisschen Regen - Eddi & Daen.mp3
+    Ein Mann, der sich Kolumbus nannt - Schnabi Schnabel.mp3
+    Hey Pippi Langstrumpf - Simone Sommerland.mp3
+    Ich schenk dir einen Regenbogen (Das Regenbogenlied) - Tara G. Zintel.mp3
+    Regentropfen huepfen - Simone Sommerland.mp3
+    SpotifyMate.com - Hände waschen - Simone Sommerland.mp3
+    SpotifyMate.com - Ich bin ein Einhorn - Simone Sommerland.mp3
+    Theo (Der Bananenbrot-Song) - Simone Sommerland.mp3
+    Zwei lange Schlangen - Simone Sommerland.mp3
+02/ (Winter) [weiss Schneeflocke]
+    001_Es schneit - Rolf Zuckowski.mp3
+    002_Froehliche Weihnacht (Macht euch bereit) - Rolf Zuckowski.mp3
+    003_In der Weihnachtsbaeckerei - Rolf Zuckowski.mp3
+    004_Morgen kommt der Nikolaus - Rolf Zuckowski.mp3
+    005_Schneefloeckchen, Weissroeckchen - Rolf Zuckowski.mp3
+    006_Winterkinder - Rolf Zuckowski.mp3
+03/ (Herbst) [rot Blatt]
+    SpotifyMate.com - Das Wetterlied - Simone Sommerland.mp3
+    SpotifyMate.com - Der Herbst hat bunte Blätter - Simone Sommerland.mp3
+    SpotifyMate.com - Ei, Ei, Ei, Ei, Eichhörnchen - Simone Sommerland.mp3
+    SpotifyMate.com - Es war einmal 'ne Nuss - Simone Sommerland.mp3
+    SpotifyMate.com - Ich geh mit meiner Laterne - Simone Sommerland.mp3
+    SpotifyMate.com - Sankt Martin ritt durch Schnee und Wind - Simone Sommerland.mp3
+04/ (AnneKaffeekanne) [schwarz Kaffeekanne]
+    Anne Kaffeekanne - Fredrik Vahle.mp3
+    Das Katzentatzentanzspiel - Fredrik Vahle.mp3
+    Higgelty, Piggelty, Pop und Pu - Fredrik Vahle.mp3
+    Kawuras - der Krebs - Fredrik Vahle.mp3
+    Leni Tanzbein - Fredrik Vahle.mp3
+    Lioliola-Lied - Fredrik Vahle.mp3
+    Pinguin-Lied - Fredrik Vahle.mp3
+    Vom Laufenlernen - Fredrik Vahle.mp3
+    Zehn kleine Fledermaeuse - Fredrik Vahle.mp3
+05/ (Vogelhochzeit) [gruen Vogel]
+    Ein Vogel wollte Hochzeit machen - 1 - Rolf Zuckowski.mp3
+    Ein Vogel wollte Hochzeit machen - 2 - Rolf Zuckowski.mp3
+    Ein Vogelbaby wird niemals satt - Rolf Zuckowski.mp3
+    Guten Tag, guten Tag - Rolf Zuckowski.mp3
+    Hallo Mama, hallo Papa - Rolf Zuckowski.mp3
+    Hoch in der Luft - Rolf Zuckowski.mp3
+    Immer nur brueten - Rolf Zuckowski.mp3
+    Immer wenn ein Vogelbaby groesser wird - Rolf Zuckowski.mp3
+    Sieh nur die Sterne - Rolf Zuckowski.mp3
+    SpotifyMate.com - Du und ich - Rolf Zuckowski.mp3
+    Tick, tick, tick - Rolf Zuckowski.mp3
+    Voegelein, Voegelein, tanz mit mir - Rolf Zuckowski.mp3
+06/ (Fruehling) [gruen Blume]
+    SpotifyMate.com - Ich lieb den Frühling - Simone Sommerland.mp3
+    SpotifyMate.com - Immer wieder kommt ein neuer Frühling - Simone Sommerland.mp3
+07/ (Sommer) [gelb Sonne]
+    SpotifyMate.com - Ich bin ein Sommerkind - Simone Sommerland.mp3
+    SpotifyMate.com - Theo, Theo - Simone Sommerland.mp3
+    SpotifyMate.com - Tschu Tschu Wa - Simone Sommerland.mp3
